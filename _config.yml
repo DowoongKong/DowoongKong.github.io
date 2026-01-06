@@ -9,8 +9,8 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Dowoong Kong Academic Portfolio"
-title_separator          : "|"
+title                    : "Dowoong Kong's Academic Portfolio"
+title_separator          : "-"
 name                     : &name "Dowoong Kong"                     # Update this with your name
 description              : &description "Dowoong Kong's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://DowoongKong.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
