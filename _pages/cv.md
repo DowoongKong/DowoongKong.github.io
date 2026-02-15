@@ -11,7 +11,7 @@ redirect_from:
 
 # Education
 
-- Mar.2026 ~ Current: M.S/Ph.D in Department of Semiconductor System Engineering, Korea University (Advisor: Prof.Yunho Oh)
+- Mar.2026 ~ Current: M.S/Ph.D in Department of Semiconductor System Engineering, Korea University (Advisor: Prof. Yunho Oh)
 - Mar.2022 ~ Feb.2026: B.S. in Department of Semiconductor Engineering, Korea University
 
 <!--
