@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "about me"
 excerpt: "MS/Ph.D student in Korea University"
 author_profile: true
 redirect_from: 
