@@ -14,9 +14,9 @@ redirect_from:
 - Mar.2026 ~ Current: M.S/Ph.D in Department of Semiconductor System Engineering, Korea University (Advisor: Prof.Yunho Oh)
 - Mar.2022 ~ Feb.2026: B.S. in Department of Semiconductor Engineering, Korea University
 
+<!--
 # Work experience
 
-<!--
 * Spring 2024: Academic Pages Collaborator
   * GitHub University
   * Duties includes: Updates and improvements to template
@@ -31,45 +31,45 @@ redirect_from:
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
--->
+
 
 # Skills
 
-<!--
+
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
--->
+
 
 # Publications
 
-<!--
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
--->
+
 
 # Talks
 
-<!--
+
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
--->
+
 
 # Teaching
 
-<!--
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
--->
+
 
 # Service and leadership
 
-<!--
+
 * Currently signed in to 43 different slack teams
 -->
