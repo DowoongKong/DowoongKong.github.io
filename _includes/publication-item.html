@@ -1,10 +1,10 @@
 {% assign me = site.author.name %}
 {% assign me_bold = "<b>" | append: me | append: "</b>" %}
 <div class="pub-item">
-  {% if post.venue_label %}<div class="pub-venue"><b>{{ post.venue_label }}</b></div>{% endif %}
-  <div class="pub-title">
+  <div class="pub-title"><b>
     {% if post.link %}<a href="{{ post.link }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}
-  </div>
+  </b></div>
   {% if post.authors %}<div class="pub-authors">{{ post.authors | replace: me, me_bold }}</div>{% endif %}
+  <div class="pub-venue">{% if post.venue_label %}<b>{{ post.venue_label }}.</b> {% endif %}{{ post.venue }}</div>
   {% if post.note %}<div class="pub-note">{{ post.note }}</div>{% endif %}
 </div>
