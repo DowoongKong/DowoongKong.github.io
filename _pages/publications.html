@@ -4,6 +4,10 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<style>
+  .pub-item { margin-bottom: 1.4em; line-height: 1.5; }
+  .pub-title a { text-decoration: none; }
+</style>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -23,7 +27,7 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% include publication-item.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
